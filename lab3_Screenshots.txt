@@ -1,0 +1,83 @@
+PS C:\Users\physi> cd .\lab_3\
+PS C:\Users\physi\lab_3> docker run -v ${PWD}:/app -it ubuntu
+root@3a6e383a4e86:/# cd /app
+root@3a6e383a4e86:/app#
+
+root@3a6e383a4e86:/app/bash_scripts# ./practice.sh
+Enter a number:
+1
+Enter a second number:
+2
+The sum is : 3
+The product is: 2
+File Name: ./practice.sh
+Command Line Argument 1:
+root@3a6e383a4e86:/app/bash_scripts#
+
+root@3a6e383a4e86:/app/bash_scripts# vim practice.sh
+root@3a6e383a4e86:/app/bash_scripts# ./practice.sh "@geocities.com" regex_practice.txt
+Enter a number:
+1
+Enter a second number:
+2
+The sum is : 3
+The product is: 2
+File Name: ./practice.sh
+Command Line Argument 1: @geocities.com
+humantvguide@geocities.com
+axluigi@geocities.com
+goose70@geocities.com
+mathematics@geocities.com
+
+PS C:\Users\physi\lab_3\lab3TestRepo> git add .                                                                         PS C:\Users\physi\lab_3\lab3TestRepo> git commit -m "Second try?"                                                       On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\physi\lab_3\lab3TestRepo> git push                                                                          To https://github.com/johnkorheledu/lab3TestRepo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/johnkorheledu/lab3TestRepo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\physi\lab_3\lab3TestRepo> git pull origin                                                                   remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/johnkorheledu/lab3TestRepo
+   8e3722d..b59c131  main       -> origin/main
+Updating 8e3722d..b59c131
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+PS C:\Users\physi\lab_3\lab3TestRepo> git add .                                                                         PS C:\Users\physi\lab_3\lab3TestRepo> git commit -m "Now we should be clean"                                            On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\physi\lab_3\lab3TestRepo> git push                                                                          Everything up-to-date
+PS C:\Users\physi\lab_3\lab3TestRepo> git status                                                                        On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\physi\lab_3\lab3TestRepo> cat ReadMe.md                                                                     Caroline Chang
+test changes for merge conflict
+Matthew Zarifa
+PS C:\Users\physi\lab_3\lab3TestRepo>    
+
+
+ 
+Collaborator
+CarolineCody commented 2 minutes ago
+I need to change something
+
+@CarolineCody
+Update README.md …
+457302f
+@CarolineCody CarolineCody requested a review from omardajani-cu 2 minutes ago
+@CarolineCody CarolineCody self-assigned this 2 minutes ago
+@CarolineCody
+Merge branch 'main' into carolBranch
+b33c6fb
+@CarolineCody CarolineCody merged commit 8e21f8e into main 43 seconds ago  
